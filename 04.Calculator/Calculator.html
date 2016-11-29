@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+	<link rel="stylesheet" href="styles.css" type="text/css" >
+</head>
+<body>
+	<form action="GET">
+		<div class="calc">
+			<div class="main-menu">
+				<ul>
+					<li><span class="underline">V</span>iew</li>
+					<li><span class="underline">E</span>dit</li>
+					<li><span class="underline">H</span>elp</li>
+				</ul>
+			</div>
+			<div class="input-result">
+				<input type="text" value="8854455">
+			</div>
+			<div class="binary">
+				<ul class="inline">
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+					<li>0000</li>
+				</ul>
+				<ul class="inline binary-index muted">
+					<li>63</li>
+					<li>47</li>
+					<li>32</li>
+				</ul>
+				<ul class="inline">
+					<li>0000</li>
+					<li>0000</li>
+					<li>1000</li>
+					<li>0111</li>
+					<li>0001</li>
+					<li>1011</li>
+					<li>1011</li>
+					<li>0111</li>
+				</ul>
+				<ul class="inline binary-index muted">
+					<li>31</li> 
+					<li>15</li> 
+					<li>0</li>
+				</ul>
+			</div>
+
+			<div class="box">
+
+				<div class="radioform">
+					<div class="box-radiobtn">
+						<ul>
+							<li><input type="radio">Hex</li>
+							<li><input type="radio" checked>Dec</li>
+							<li><input type="radio">Oct</li>
+							<li><input type="radio">Bin</li>
+						</ul>
+					</div>
+					<div class="box-radiobtn">
+						<ul>
+							<li><input type="radio" checked>Qword</li>
+							<li><input type="radio">Dword</li>
+							<li><input type="radio">Word</li>
+							<li><input type="radio">Byte</li>
+						</ul>
+					</div>
+				</div> <!--closing tag for .radioform-->
+			
+				<div class="buttons">
+					<div class="span8">
+						<div class="row">
+							<button class="btn" disabled>&nbsp;</button>
+							<button class="btn active">Mod</button>
+							<button class="btn" disabled>A</button>
+							<button class="btn shadow-btn">MC</button>
+							<button class="btn shadow-btn">MR</button>
+							<button class="btn shadow-btn">MS</button>
+							<button class="btn shadow-btn">M+</button>
+							<button class="btn shadow-btn">M-</button>
+						</div>
+						<div class="row">
+							<button class="btn active">(</button>
+							<button class="btn active">)</button>
+							<button class="btn" disabled>B</button>
+							<button class="btn active">&larr;</button>
+							<button class="btn active">CE</button>
+							<button class="btn active">C</button>
+							<button class="btn active">&plusmn;</button>
+							<button class="btn" disabled>&radic;</button>
+						</div>
+						<div class="row">
+							<button class="btn active">RoL</button>
+							<button class="btn active">RoR</button>
+							<button class="btn" disabled>C</button>
+							<button class="btn active numbers">7</button>
+							<button class="btn active numbers">8</button>
+							<button class="btn active numbers">9</button>
+							<button class="btn active">/</button>
+							<button class="btn" disabled>%</button>
+						</div>
+						<div class="row">
+							<button class="btn active">Or</button>
+							<button class="btn active">Xor</button>
+							<button class="btn" disabled>D</button>
+							<button class="btn active numbers">4</button>
+							<button class="btn active numbers">5</button>
+							<button class="btn active numbers">6</button>
+							<button class="btn active">*</button>
+							<button class="btn" disabled>1/x</button>
+						</div>
+					</div> <!-- closing tag of div span 8 -->
+
+					
+						<div class="span7">
+							<div class="row"> 
+								<button class="btn active">Lsh</button>
+								<button class="btn active">Rsh</button>
+								<button class="btn" disabled>E</button>
+								<button class="btn active numbers">1</button>
+								<button class="btn active numbers">2</button>
+								<button class="btn active numbers">3</button>
+								<button class="btn active">-</button>
+							</div>
+						
+							<div class="row">
+								<button class="btn active">Not</button>
+								<button class="btn active">And</button>
+								<button class="btn" disabled>F</button>
+								<button class="btn active numbers big">0</button>
+								<button class="btn" disabled>.</button>
+								<button class="btn active">+</button>
+							</div>
+						</div> <!-- closing div for span 7-->
+
+							<button class="btn active big2"><strong>=</strong></button>
+
+					</div> <!-- cllsing tag for .buttons-->
+				</div> <!-- cllsing tag for .box-->
+			</div> <!-- closing tag for .calc-->
+		
+</form>
+</body>
+</html>
