@@ -1,0 +1,50 @@
+body{
+	margin-top: 0px;
+	margin-left: 0px;
+	font-family: Verdana, Arial;
+
+}
+table {
+	width: 400px;
+	background-color: #595959;
+	margin-top: 0px ;
+	margin-left: 0px ;
+}
+td{
+	padding: 5px 5px;
+}
+th{
+	display: table-cell;
+ color: #d9d9d9;
+ font-weight: normal;;
+}
+
+label{
+	color: #FFFFFF;
+	font-style: italic;
+	font-family: Verdana, Arial;
+	font-size: 75%;
+	text-align: right;
+	vertical-align: top;
+}
+.name:before {
+ 	content: "•";
+    display: block;
+    color: green;
+    float: left;
+   
+}
+.name:after{
+	content: "No Active Support";
+	display: block;
+	color: red;
+}
+.name, .link, .mail{
+	color: #fff4b3;
+}
+.status{
+	color: #FF9632;
+}
+.time, .action{
+	color:  #d9d9d9;
+}
